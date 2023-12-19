@@ -1,36 +1,34 @@
 {
     "projects": [
         {
+            "id": "1",
             "navn": "Prosjekt1",
-            "prosjektInfo": {
-                "bilde": "sample path",
-                "sted": "Oslo",
-                "prosjektfase": "Gjennomføring",
-                "typeProsjekt": "Nybygg",
-                "byggestart": "2018-01-01",
-                "inflyttning": "2018-01-01",
-                "bruttoareal": "1000",
-                "kostnadsramme": "100000000",
-                "kontrahert entrepernør": "Skanska",
-                "miljøtiltak": ["Energimerking", "Passivhus", "BREEAM", "Miljøfyrtårn", "Svanemerket", "Grønn Byggallia"],
-                "beskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nullam euismod, nisl eget aliquam ultricies, nunc nisl ultricies nunc, eget aliquam"
-            }
+            "bilde": "sample path",
+            "sted": "Oslo",
+            "prosjektfase": "Gjennomføring",
+            "typeProsjekt": "Nybygg",
+            "byggestart": "2018-01-01",
+            "inflyttning": "2018-01-01",
+            "bruttoareal": "1000",
+            "kostnadsramme": "100000000",
+            "kontrahert entrepernør": "Skanska",
+            "miljøtiltak": ["Energimerking", "Passivhus", "BREEAM", "Miljøfyrtårn", "Svanemerket", "Grønn Byggallia"],
+            "beskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nullam euismod, nisl eget aliquamultricies, nunc nisl ultricies nunc, eget aliquam"
         },
         {
+            "id": "2",
             "navn": "Prosjekt2",
-            "prosjektInfo": {
-                "bilde": "another sample path",
-                "sted": "Bergen",
-                "prosjektfase": "Planlegging",
-                "typeProsjekt": "Ombygging",
-                "byggestart": "2019-05-15",
-                "inflyttning": "2020-02-28",
-                "bruttoareal": "800",
-                "kostnadsramme": "80000000",
-                "kontrahert entrepernør": "Veidekke",
-                "miljøtiltak": ["Energimerking", "LEED", "Miljøfyrtårn"],
-                "beskrivelse": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "bilde": "another sample path",
+            "sted": "Bergen",
+            "prosjektfase": "Planlegging",
+            "typeProsjekt": "Ombygging",
+            "byggestart": "2019-05-15",
+            "inflyttning": "2020-02-28",
+            "bruttoareal": "800",
+            "kostnadsramme": "80000000",
+            "kontrahert entrepernør": "Veidekke",
+            "miljøtiltak": ["Energimerking", "LEED", "Miljøfyrtårn"],
+            "beskrivelse": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
-        }
     ]
 }
