@@ -1,4 +1,4 @@
-// import { fetchData } from "./JS/fetch_json.module.js";
+// import { fetchData } from "./JS/fetch_json.js";
 // fetchData().then((data) => {
 //     console.log(data);
 // });
@@ -19,5 +19,5 @@ let sampleArray =
         beskrivelse: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nullam euismod, nisl eget aliquamultricies, nunc nisl ultricies nunc, eget aliquam"
     };
 
-const { addProject } = require("./JS/write_json.module.js");
+const { addProject } = require("./JS/write_json.js");
 addProject(sampleArray);
