@@ -1,7 +1,13 @@
-import { fetchData } from "./JS/fetch_json.js";
-fetchData().then((data) => {
-    console.log(data);
-});
+import { createPropertyCard } from "./JS/createpropertycard.js";
+import { createProjectList } from "./JS/createProjectList.js";
+
+createProjectList();
+createPropertyCard(0);
+
+// import { fetchData } from "./JS/fetch_json.js";
+// fetchData().then((data) => {
+//     console.log(data);
+// });
 
 // let sampleArray = 
 //     {
