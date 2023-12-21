@@ -13,11 +13,11 @@ export const createPropertyCard = (index) => {
         <div id="propertyCard__image" class="flex">
             <img src="${property.bilde}" alt="Bilde av ${property.navn}">
         </div>
-        <div id="propertyCard__text" class="flex m-5 justify-between">
-            <div id="propertyCard_desc" class="flex text-lg m-5 w-3/6">
+        <div id="propertyCard__text" class="flex flex-col-reverse desktop:flex-row m-5 justify-between">
+            <div id="propertyCard_desc" class="flex text-lg my-5 desktop:w-3/6 desktop:m-5">
                 <p>${property.beskrivelse}</p>
             </div>
-            <div id="propertyCard_keyInfo" class="bg-[#FFFFFF] text-xl flex p-5 h-auto border-[#DBDCDB] border-2">
+            <div id="propertyCard_keyInfo" class="bg-[#FFFFFF] text-xl flex p-5 h-auto border-[#DBDCDB] border-2 max-w-lg">
                 <ul>
                     <li><b>NØKKELDATA</b></li>
                     <li><b>Prosjekt ID:</b> ${property.id}</li>

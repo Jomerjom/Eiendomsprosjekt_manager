@@ -1,8 +1,9 @@
-import { createPropertyCard } from "./JS/createpropertycard.js";
+import { createPropertyCard } from "./JS/createPropertyCard.js";
 import { createProjectList } from "./JS/createProjectList.js";
 
 createProjectList();
 createPropertyCard(0);
+
 
 // import { fetchData } from "./JS/fetch_json.js";
 // fetchData().then((data) => {
