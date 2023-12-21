@@ -22,8 +22,8 @@ export const createPropertyCard = (index) => {
             <h1 class="text-5xl">${property.navn}</h1>
             <h2 class="text-4xl">${property.sted}</h2>
         </div>
-        <div id="propertyCard__image" class="flex">
-            <img src="${property.bilde}" alt="Bilde av ${property.navn}">
+        <div id="propertyCard__image" class="flex w-full max-h-[41rem]">
+            <img class="object-cover w-full h-full" src="${property.bilde}" alt="Bilde av ${property.navn}">
         </div>
         <div id="propertyCard__text" class="flex flex-col-reverse desktop:flex-row m-5 justify-between">
             <div id="propertyCard_desc" class="flex text-lg my-5 desktop:w-3/6 desktop:m-5">
