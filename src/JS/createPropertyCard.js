@@ -1,4 +1,5 @@
 import { fetchData } from "./fetch_json.js";
+import { numberFormatterKM } from "./numberFormatter.js";
 
 const propertyCard = document.getElementById("propertyCard");
 
@@ -38,7 +39,7 @@ export const createPropertyCard = (index) => {
                     <li><b>Byggestart:</b> ${property.byggestart}</li>
                     <li><b>Innflytning:</b> ${property.inflyttning}</li>
                     <li><b>Bruttoareal:</b> ${property.bruttoareal} m<sup>2</sup></li>
-                    <li><b>Kostnadsramme:</b> ${property.kostnadsramme} kr</li>
+                    <li><b>Kostnadsramme:</b> ${numberFormatterKM(property.kostnadsramme)}</li>
                     <li><b>Kontrahert entreprenør:</b> ${property.kontrahert_entrepernør}</li>
                     <li><b>Miljøtiltak:</b> ${property.miljøtiltak}</li>
                 </ul>
