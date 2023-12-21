@@ -48,7 +48,7 @@
         {
             "id": "4",
             "navn": "Kulturhusrenovering",
-            "bilde": "/src/assets/img/kulturhus.jpg",
+            "bilde": "/src/assets/img/kulturhus.webp",
             "sted": "Søndre Bergen",
             "prosjektfase": "Ferdigstilt",
             "typeProsjekt": "Renovering",
