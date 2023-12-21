@@ -1,3 +1,4 @@
+
 /**
  * Asynchronously fetches project data from a JSON file.
  *
@@ -9,7 +10,7 @@
 export const fetchData = async () => {
     try {
       // Fetch data from the specified JSON file
-      const response = await fetch('/JS/sampledata.json', {
+      const response = await fetch('JS/sampledata.json', {
         headers: {
           "Content-Type": "application/json",
         },
