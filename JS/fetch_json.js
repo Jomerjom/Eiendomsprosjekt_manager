@@ -8,17 +8,21 @@
  */
 export const fetchData = async () => {
     try {
-        // Fetch data from the specified JSON file
-        const response = await fetch("https://raw.githubusercontent.com/Jomerjom/Eiendomsprosjekt_manager/changesFolderStructure/JS/sampledata.json");
-
-        // Parse the response body as JSON
-        const data = await response.json();
-
-        // Return the parsed data
-        return data;
+      // Fetch data from the specified JSON file
+      const response = await fetch('/JS/sampledata.json', {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+  
+      // Parse the response body as JSON
+      const data = await response.json();
+  
+      // Return the parsed data
+      return data;
     } catch (error) {
-        // Log and rethrow any errors that occur during the fetching or parsing process
-        console.error('Error fetching data:', error);
-        throw error;
+      // Log and rethrow any errors that occur during the fetching or parsing process
+      console.error('Error fetching data:', error);
+      throw error;
     }
-}
+  };
