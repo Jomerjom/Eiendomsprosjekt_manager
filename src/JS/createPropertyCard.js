@@ -19,7 +19,7 @@ export const createPropertyCard = (index) => {
         // Update the content of the propertyCard container with project information
         propertyCard.innerHTML = `
         <div id="propertyCard_Title" class="flex items-center flex-col justify-center text-center pb-8 text-[#2B5F46]">
-            <h1 class="text-5xl">${property.navn}</h1>
+            <h1 class="text-5xl pb-2">${property.navn}</h1>
             <h2 class="text-4xl">${property.sted}</h2>
         </div>
         <div id="propertyCard__image" class="flex w-full max-h-[41rem]">
