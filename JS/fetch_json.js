@@ -9,7 +9,7 @@
 export const fetchData = async () => {
     try {
         // Fetch data from the specified JSON file
-        const response = await fetch("./sampledata.json");
+        const response = await fetch("https://raw.githubusercontent.com/Jomerjom/Eiendomsprosjekt_manager/changesFolderStructure/JS/sampledata.json");
 
         // Parse the response body as JSON
         const data = await response.json();
