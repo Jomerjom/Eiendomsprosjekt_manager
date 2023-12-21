@@ -2,9 +2,21 @@ import { fetchData } from "./fetch_json.js";
 
 const propertyCard = document.getElementById("propertyCard");
 
+/**
+ * Creates a property card based on the project data at the specified index.
+ * Updates the content of the propertyCard container with information about the selected project.
+ *
+ * @function createPropertyCard
+ * @param {number} index - The index of the project in the data to display on the property card.
+ * @returns {void}
+ */
 export const createPropertyCard = (index) => {
+    // Fetch data asynchronously
     fetchData().then((data) => {
+        // Get the project information at the specified index
         let property = data.projects[index];
+
+        // Update the content of the propertyCard container with project information
         propertyCard.innerHTML = `
         <div id="propertyCard_Title" class="flex items-center flex-col justify-center text-center pb-8 text-[#2B5F46]">
             <h1 class="text-5xl">${property.navn}</h1>
