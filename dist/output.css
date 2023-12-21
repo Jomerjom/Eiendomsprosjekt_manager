@@ -577,6 +577,10 @@ video {
   width: 100%;
 }
 
+.max-w-screen-2xl {
+  max-width: 1536px;
+}
+
 .flex-row {
   flex-direction: row;
 }
