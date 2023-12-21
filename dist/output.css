@@ -574,10 +574,6 @@ video {
   height: auto;
 }
 
-.w-3\/6 {
-  width: 50%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -727,6 +723,11 @@ video {
   color: rgb(43 95 70 / var(--tw-text-opacity));
 }
 
+.text-\[\#F5F7EF\] {
+  --tw-text-opacity: 1;
+  color: rgb(245 247 239 / var(--tw-text-opacity));
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -762,11 +763,6 @@ video {
 @media (min-width: 1440px) {
   .desktop\:m-5 {
     margin: 1.25rem;
-  }
-
-  .desktop\:mx-5 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
   }
 
   .desktop\:w-3\/6 {
