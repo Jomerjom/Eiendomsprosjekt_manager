@@ -614,6 +614,14 @@ video {
   height: auto;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.max-h-\[41rem\] {
+  max-height: 41rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -692,6 +700,16 @@ video {
 .bg-\[\#FFFFFF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-2 {
@@ -842,6 +860,10 @@ video {
 
   .desktop\:w-3\/6 {
     width: 50%;
+  }
+
+  .desktop\:max-w-lg {
+    max-width: 32rem;
   }
 
   .desktop\:flex-row {
