@@ -3,7 +3,7 @@
         {
             "id": "1",
             "navn": "Avlastningsbarnehage",
-            "bilde": "/src/assets/img/barnehage.jpg",
+            "bilde": "../img/barnehage.jpg",
             "sted": "Vestre Bærum",
             "prosjektfase": "Gjennomføring",
             "typeProsjekt": "Nybygg",
@@ -18,7 +18,7 @@
         {
             "id": "2",
             "navn": "Boligkompleks",
-            "bilde": "/src/assets/img/boligkompleks.webp",
+            "bilde": "../img/boligkompleks.webp",
             "sted": "Østre Oslo",
             "prosjektfase": "Planlegging",
             "typeProsjekt": "Nybygg",
@@ -33,7 +33,7 @@
         {
             "id": "3",
             "navn": "Skoleutvidelse",
-            "bilde": "/src/assets/img/skoleutvidelse.webp",
+            "bilde": "../img/skoleutvidelse.webp",
             "sted": "Nordre Trondheim",
             "prosjektfase": "Utførelse",
             "typeProsjekt": "Utvidelse",
@@ -48,7 +48,7 @@
         {
             "id": "4",
             "navn": "Kulturhusrenovering",
-            "bilde": "/src/assets/img/kulturhus.webp",
+            "bilde": "../img/kulturhus.webp",
             "sted": "Søndre Bergen",
             "prosjektfase": "Ferdigstilt",
             "typeProsjekt": "Renovering",
@@ -63,7 +63,7 @@
         {
             "id": "5",
             "navn": "Idrettshall",
-            "bilde": "/src/assets/img/idrettshallstavanger.webp",
+            "bilde": "../img/idrettshallstavanger.webp",
             "sted": "Sentrale Stavanger",
             "prosjektfase": "Planlegging",
             "typeProsjekt": "Idrettsanlegg",
@@ -78,7 +78,7 @@
         {
             "id": "6",
             "navn": "Kontorbygg",
-            "bilde": "/src/assets/img/kontorbygg.webp",
+            "bilde": "../img/kontorbygg.webp",
             "sted": "Østre Tromsø",
             "prosjektfase": "Utførelse",
             "typeProsjekt": "Kontorbygg",
@@ -93,7 +93,7 @@
         {
             "id": "7",
             "navn": "Helseklinikk",
-            "bilde": "/src/assets/img/helsehus.webp",
+            "bilde": "../img/helsehus.webp",
             "sted": "Vestfold",
             "prosjektfase": "Gjennomføring",
             "typeProsjekt": "Helseinstitusjon",
@@ -108,7 +108,7 @@
         {
             "id": "8",
             "navn": "Flerbrukshall",
-            "bilde": "/src/assets/img/flerbrukshall.webp",
+            "bilde": "../img/flerbrukshall.webp",
             "sted": "Nordre Drammen",
             "prosjektfase": "Planlegging",
             "typeProsjekt": "Idrettsanlegg",
@@ -123,7 +123,7 @@
         {
             "id": "9",
             "navn": "Studentboligkompleks",
-            "bilde": "/src/assets/img/studentbolig.webp",
+            "bilde": "../img/studentbolig.webp",
             "sted": "Sentrale Trondheim",
             "prosjektfase": "Utførelse",
             "typeProsjekt": "Boligutvikling",
@@ -138,7 +138,7 @@
         {
             "id": "10",
             "navn": "Kulturpark",
-            "bilde": "/src/assets/img/kulturpark.webp",
+            "bilde": "../img/kulturpark.webp",
             "sted": "Østre Oslo",
             "prosjektfase": "Gjennomføring",
             "typeProsjekt": "Kulturprosjekt",
