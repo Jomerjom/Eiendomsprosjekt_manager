@@ -1,5 +1,6 @@
 import { fetchData } from "./fetch_json.js";
 import { numberFormatterKM } from "./numberFormatter.js";
+import { konverterTilKvartal } from "./dateFormatter.js";
 
 const propertyCard = document.getElementById("propertyCard");
 
@@ -36,8 +37,8 @@ export const createPropertyCard = (index) => {
                     <li><b>Prosjekt ID:</b> ${property.id}</li>
                     <li><b>Type prosjekt:</b> ${property.typeProsjekt}</li>
                     <li><b>Prosjektfase:</b> ${property.prosjektfase}</li>
-                    <li><b>Byggestart:</b> ${property.byggestart}</li>
-                    <li><b>Innflytning:</b> ${property.inflyttning}</li>
+                    <li><b>Byggestart:</b> ${konverterTilKvartal(property.byggestart)}</li>
+                    <li><b>Innflytning:</b> ${konverterTilKvartal(property.inflyttning)}</li>
                     <li><b>Bruttoareal:</b> ${property.bruttoareal} m<sup>2</sup></li>
                     <li><b>Kostnadsramme:</b> ${numberFormatterKM(property.kostnadsramme)}</li>
                     <li><b>Kontrahert entreprenør:</b> ${property.kontrahert_entrepernør}</li>
